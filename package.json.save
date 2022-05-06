@@ -4,7 +4,7 @@
   "description": "Pruebas automatizadas de un sistema de tienta de ropa",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "automation",
@@ -20,10 +20,8 @@
   "dependencies": {
     "cypress": "^9.6.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/elbeto005/tiendaDeRopa"
+  "repository":{
+   "type": "git",
+   "url": "https://github.com/elbeto005/tiendaDeRopa"
   }
-
 }
- 
