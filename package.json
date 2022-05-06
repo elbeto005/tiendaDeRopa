@@ -1,0 +1,23 @@
+{
+  "name": "tiendaderopa",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas de un sistema de tienta de ropa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "ropa",
+    "qa",
+    "tienda",
+    "tienda",
+    "de",
+    "ropa"
+  ],
+  "author": "Alberto Perez - elbeto",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
