@@ -21,4 +21,13 @@ describe('Search Elements', ()=>{
        })
     })
 
+    it('Search for elements with special code', ()=>{
+        cy.readFile('cypress/support/txt/searchInTxt.txt').then((text)=>{
+            cy.search(text);
+        })
+        cy.fixture('searchResult').then((searchResult)=>{
+            cy.get(searchResult.alert).should('contain','No results were found for your search');
+        })
+    })
+
 })

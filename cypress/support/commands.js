@@ -30,3 +30,5 @@
         cy.get(index.searchButton).click();
     })
  })
+
+ 
